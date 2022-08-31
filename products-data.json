@@ -1,0 +1,36 @@
+{
+    "Rows": [
+      {
+        "FirstRow": [
+          {
+            "Product": "Bananas",
+            "SrcImage": "../../assets/img/banana.png"
+          },
+          {
+            "Product": "Cebollas",
+            "SrcImage": "../../assets/img/cebollas.png"
+          },
+          {
+            "Product": "Lechugas",
+            "SrcImage": "../../assets/img/lechuga.png"
+          }
+        ]
+      },
+      {
+        "SecondRow": [
+          {
+            "Product": "Papas",
+            "SrcImage": "../../assets/img/papas.png"
+          },
+          {
+            "Product": "Pimentón",
+            "SrcImage": "../../assets/img/pimenton.png"
+          },
+          {
+            "Product": "Tomate",
+            "SrcImage": "../../assets/img/tomate.png"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,18 @@
+<div class="container">
+  {{#each productsData.Rows}}
+  <div class="row">
+    {{#each this.FirstRow}}
+    <div class="col-sm">
+      {{> product producto=this.Product imagenProducto=this.SrcImage}}
+    </div>
+    {{/each}}
+  </div>
+  <div class="row">
+    {{#each this.SecondRow}}
+    <div class="col-sm">
+      {{> product producto=this.Product imagenProducto=this.SrcImage}}
+    </div>
+    {{/each}}
+  </div>  
+  {{/each}}
+</div>

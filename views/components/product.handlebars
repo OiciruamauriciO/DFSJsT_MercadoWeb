@@ -1,0 +1,41 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{producto}}</h5>
+    <img
+      class="card-img-top"
+      src="{{{imagenProducto}}}"
+      data-toggle="modal"
+      data-target="#exampleModal"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModalCenter"
+      onclick="alimentarCarro(this);"
+    />
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModalCenter"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Selección</h5>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-dismiss="modal"
+        >Seguir seleccionando</button>
+      </div>
+    </div>
+  </div>
+</div>
